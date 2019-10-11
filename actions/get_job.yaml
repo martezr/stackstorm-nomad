@@ -1,0 +1,13 @@
+---
+name: get_job
+pack: nomad
+runner_type: python-script
+description: "Get a Nomad job"
+enabled: true
+entry_point: "get_job.py"
+parameters:
+    name:
+        type: string
+        description: "Name of the Nomad job to get"
+        required: true
+        position: 0

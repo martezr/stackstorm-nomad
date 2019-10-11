@@ -1,0 +1,6 @@
+---
+name: list_allocations
+runner_type: python-script
+description: "List Allocations from Nomad server"
+enabled: true
+entry_point: "list_allocations.py"
