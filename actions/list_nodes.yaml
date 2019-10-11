@@ -1,0 +1,6 @@
+---
+name: list_nodes
+runner_type: python-script
+description: "List Nodes from Nomad server"
+enabled: true
+entry_point: "list_nodes.py"

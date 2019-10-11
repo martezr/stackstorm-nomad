@@ -1,0 +1,13 @@
+---
+name: stop_job
+pack: nomad
+runner_type: python-script
+description: "Stop a Nomad job"
+enabled: true
+entry_point: "stop_job.py"
+parameters:
+    name:
+        type: string
+        description: "Name of the Nomad job to stop"
+        required: true
+        position: 0

@@ -1,5 +1,6 @@
 ---
-url: 'http://127.0.0.1'
+url: '127.0.0.1'
 cert: ''
 token: ''
+region: 'us-west'
 verify: false

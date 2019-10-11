@@ -1,0 +1,6 @@
+---
+name: list_peers
+runner_type: python-script
+description: "List peers from Nomad cluster"
+enabled: true
+entry_point: "list_peers.py"
