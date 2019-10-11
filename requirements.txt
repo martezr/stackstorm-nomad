@@ -1,0 +1,1 @@
+python-nomad==1.1.0

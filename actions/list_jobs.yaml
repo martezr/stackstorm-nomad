@@ -1,0 +1,6 @@
+---
+name: list_jobs
+runner_type: python-script
+description: "List Jobs from Nomad server"
+enabled: true
+entry_point: "list_jobs.py"
