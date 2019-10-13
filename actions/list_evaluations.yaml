@@ -1,0 +1,6 @@
+---
+name: list_evaluations
+runner_type: python-script
+description: "List evaluations from Nomad server"
+enabled: true
+entry_point: "list_evaluations.py"
