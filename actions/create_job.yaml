@@ -1,0 +1,13 @@
+---
+name: create_job
+pack: nomad
+runner_type: python-script
+description: "Create a Nomad job"
+enabled: true
+entry_point: "create_job.py"
+parameters:
+    file:
+        type: string
+        description: "Name of the Nomad job to get"
+        required: true
+        position: 0
