@@ -1,0 +1,6 @@
+---
+name: parse_job
+runner_type: python-script
+description: "List Regions from Nomad server"
+enabled: true
+entry_point: "parse_job.py"
