@@ -1,0 +1,6 @@
+---
+name: force_gc
+runner_type: python-script
+description: "Initialize a garbage collection of jobs, evaluations, allocations, and nodes"
+enabled: true
+entry_point: "force_gc.py"
