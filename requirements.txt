@@ -1,1 +1,1 @@
-python-nomad==1.2.2
+python-nomad==1.2.1
