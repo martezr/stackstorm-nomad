@@ -1,0 +1,13 @@
+---
+name: enable_drain_mode
+pack: nomad
+runner_type: python-script
+description: "Enable drain mode on a Nomad client"
+enabled: true
+entry_point: "enable_drain_mode.py"
+parameters:
+    node_id:
+        type: string
+        description: "The id of the nomad node"
+        required: true
+        position: 0

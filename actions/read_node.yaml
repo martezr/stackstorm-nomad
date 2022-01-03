@@ -1,0 +1,13 @@
+---
+name: read_node
+pack: nomad
+runner_type: python-script
+description: "Get the status of a client node"
+enabled: true
+entry_point: "read_node.py"
+parameters:
+    node_id:
+        type: string
+        description: "The id of the nomad node"
+        required: true
+        position: 0

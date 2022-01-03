@@ -1,7 +1,7 @@
 ---
 ref: nomad
 name: nomad
-description: HashiCorp Nomad
+description: StackStorm integration pack for HashiCorp Nomad
 stackstorm_version: ">=2.9.0"
 version: 0.0.1
 author: Martez Reed

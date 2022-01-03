@@ -1,9 +1,15 @@
 ---
-  url:
-    description: "URL for the Nomad server"
+  host:
+    description: "The IP address or FDQN the Nomad server"
     type: "string"
     secret: false
     required: true
+  secure:
+    description:
+    type: "boolean"
+    secret: false
+    required: false
+    default: false
   token:
     description: "Authentication token"
     type: "string"

@@ -1,0 +1,6 @@
+---
+name: reconcile_summaries
+runner_type: python-script
+description: "Initialize a reconciliation of the summaries of all registered jobs"
+enabled: true
+entry_point: "reconcile_summaries.py"

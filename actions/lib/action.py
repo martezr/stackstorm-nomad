@@ -13,6 +13,7 @@ class NomadBaseAction(Action):
         token = self.config['token']
         verify = self.config['verify']
         region = self.config['region']
+        secure = self.config['secure']
 
-        client = nomad.Nomad(host=url, token=token, verify=verify, region=region )
+        client = nomad.Nomad(host=url, token=token, secure=secure, verify=verify, region=region )
         return client
