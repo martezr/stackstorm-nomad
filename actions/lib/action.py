@@ -9,11 +9,11 @@ class NomadBaseAction(Action):
         self.nomad = self._get_client()
 
     def _get_client(self):
-        url = self.config['url']
+        host = self.config['host']
         token = self.config['token']
         verify = self.config['verify']
         region = self.config['region']
         secure = self.config['secure']
 
-        client = nomad.Nomad(host=url, token=token, secure=secure, verify=verify, region=region )
+        client = nomad.Nomad(host=host, token=token, secure=secure, verify=verify, region=region )
         return client
