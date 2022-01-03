@@ -5,7 +5,7 @@
     secret: false
     required: true
   secure:
-    description:
+    description: "Whether the Nomad secure uses HTTPS or not"
     type: "boolean"
     secret: false
     required: false
